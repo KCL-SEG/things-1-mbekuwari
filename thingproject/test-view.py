@@ -12,3 +12,5 @@ class ViewTest(TestCase):
         response = self.client.get('/')
         self.assertContains(response, '<title>Things</title>', html=True)
         self.assertContains(response, '<h1>Things</h1>', html=True)
+
+    from django.shortcuts import render
