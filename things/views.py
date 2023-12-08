@@ -3,10 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def things_view(request):
-    return render(request, 'things_page.html')
+# def things_view(request):
+#     return render(request, 'things_page.html')
 
-def home_view(request):
+def things_view(request):
     html = """
     <!DOCTYPE html>
     <html>
